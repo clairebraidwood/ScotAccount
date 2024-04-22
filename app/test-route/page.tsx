@@ -7,7 +7,7 @@ import ButtonGroup from '@/components/ButtonGroup';
 import Button from '@/components/Button';
 
 export const metadata:Metadata = {
-    title: 'ScotAccount',
+    title: 'ChooseAccount',
 };
 
 /**
@@ -68,13 +68,13 @@ const Page:React.FC = function Page() {
                         variants="secondary"
                         icon='chevron_left'
                         iconSide='left'
-                        href='/test-route'
+                        href='/'
                     >
                             Back
                     </Button>
                     <Button 
-                        icon='chevron-right'
-                        href='/test-route'
+                        icon='chevron_right'
+                        href='/'
                     >
                         Continue
                     </Button>
@@ -86,3 +86,4 @@ const Page:React.FC = function Page() {
 }
 
 export default Page;
+
